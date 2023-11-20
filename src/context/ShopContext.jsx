@@ -5,6 +5,7 @@ import PRODUCT from '../products';
 //ShopContext
 export const ShopContext = createContext(null);
 
+//This checks the items in the cart
 const getDefaultCart = ()=> {
     let cart ={}
     for(let i =1; i < PRODUCT.length +1; i++){
